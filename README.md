@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## TODO
+[x] Display the KWSP offices list with a list view that retrieves from API (Details below). - refer offices.services.ts
+[x] Build live search to allow end-user to do wild card searches on the office address or name. 
+[] Build a menu with sorting option to allow users to sort the KWSP office list by office name or nearest location.
+[] Display the live distance of the office if the user allows GPS location permission. (sample https://www.w3schools.com/html/html5_geolocation.asp)
+[] The distance formula can refer to https://www.geodatasource.com/developers/javascript
+[] If the live distance less than 1 KM, display unit in Meter. If the live distance equal or more than 1 KM, display unit in KM.
+[x] Build a menu with a filter option to allows the user to filter the records by all states or single states only. The default filter is all states.
+[x] Display the full information on the new page when the user taps on the view list.  
+[x] Sample wireframe can refer to https://r6yaf1.axshare.com/#id=dldpxi&p=page_1    Password: Epf123
+[x] REMEMBER: The app needs to be responsive to display in mobile web and desktop version
+

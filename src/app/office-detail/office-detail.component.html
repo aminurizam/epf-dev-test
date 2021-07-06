@@ -1,0 +1,51 @@
+<div>
+  <h1 class="text-blue-800 font-bold text-3xl mb-2">Locations Details</h1>
+  <h2 class="text-gray-500 font-semibold mb-2">Map</h2>
+  <img src="" alt="" class="w-full h-60 mb-8"> <!-- TODO Map here -->
+
+  <h2 class="text-xl text-gray-500 font-semibold mb-4">Information</h2>
+
+  <div class="mb-2">
+    <label for="" class="font-semibold">Address</label>
+    <p>{{ office?.ads }}</p>
+  </div>
+
+  <div class="mb-2">
+    <label for="" class="font-semibold">Distance from your location</label>
+    <p>TODO</p>
+  </div>
+
+  <div class="mb-2">
+    <label for="" class="font-semibold">Fax No.</label>
+    <p>06-5565915</p>
+  </div>
+  <div>
+    <label for="" class="font-semibold">Operation Hours</label>
+    <div>
+      <label for="">Pejabat</label>
+      <p>
+        Isnin – Jumaat: 8.00AM - 5.00PM
+      </p>
+    </div>
+
+    <div class="mb-2">
+      <label for="">Kaunter</label>
+      <p>
+        Isnin – Jumaat: 8.30AM - 4.30PM
+      </p>
+      <p>
+        Rehat Jumaat: 12.15PM - 2.45PM
+      </p>
+    </div>
+  </div>
+
+  <div class="mb-4">
+    <label for="" class="font-semibold">Services</label>
+    <p>Office, Kiosk, RAS</p>
+  </div>
+
+  <div>
+    <button class="mr-4 font-semibold text-gray-600 hover:text-gray-800" [routerLink]="['/']">Back</button>
+    <button class="rounded-full bg-blue-700 hover:bg-blue-900 text-white py-2.5 px-4">Open in Maps</button>
+  </div>
+</div>

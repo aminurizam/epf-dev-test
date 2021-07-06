@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table tr th,td, thead {
+  border-bottom: 1px solid #f3f4f6;
+  padding: 1rem 1.5rem;
+  text-align: left;
+}
+
+.table tr td, thead {
+  border-left: 1px solid #f3f4f6;
+}
+
+.table tr td:first-child {
+  border-left: none;
+}
